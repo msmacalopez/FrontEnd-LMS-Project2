@@ -3,7 +3,7 @@ import BookCard from "./BookCard";
 
 export default function FavoriteBooks() {
   return (
-    <div className="flex flex-col items-center justify-center my-10">
+    <div className="card flex flex-col items-center justify-center my-10">
       {/* Search Input */}
       <label
         className="input rounded-full md:w-200 focus-within:border-gray-100

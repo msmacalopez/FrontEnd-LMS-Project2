@@ -5,6 +5,7 @@ import { Link, useLocation } from "react-router";
 import { COLORS } from "../../theme.js";
 import { useDispatch, useSelector } from "react-redux";
 // import { setUser } from "../features/auth/authSlice";
+import ThemeController from "./ThemeController.jsx";
 
 const LibNavBar = () => {
   //   const location = useLocation();
@@ -87,6 +88,9 @@ const LibNavBar = () => {
               >
                 Create Account
               </Link>
+            </li>
+            <li>
+              <ThemeController />
             </li>
           </ul>
         </div>

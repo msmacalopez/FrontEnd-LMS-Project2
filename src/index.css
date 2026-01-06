@@ -1,10 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 @import "tailwindcss";
 
-@plugin "daisyui";
+/* @plugin "daisyui"; */
 @plugin "daisyui" {
   themes: light --default, dark --prefersdark;
 }
+
+/* To Customize dark: */
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+/* @layer components {
+  html[data-theme="dark"] .card {
+    @apply border-2 border-emerald-500;
+  }
+} */
 
 body {
   font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont,

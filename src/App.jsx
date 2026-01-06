@@ -38,7 +38,7 @@ function App() {
             <Route path="/login" element={<LoginPage />} />
             <Route path="/signup" element={<SignupPage />} />
             <Route path="/allbooks" element={<AllBooksPage />} />
-            <Route path="/booksdetails" element={<BookDetailPage />} />
+            <Route path="/bookdetails" element={<BookDetailPage />} />
 
             {/* private routes */}
             {/* <Route

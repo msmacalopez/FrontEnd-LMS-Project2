@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function BookCard() {
   return (
     <div>
-      <div className="card bg-base-100 w-96 shadow-sm">
+      <div className="bg-base-100 w-96 shadow-sm">
         <figure>
           <img
             src="https://images.pexels.com/photos/256450/pexels-photo-256450.jpeg"
@@ -22,7 +22,7 @@ export default function BookCard() {
             are title and actions parts
           </p>
           <div className="card-actions justify-end">
-            <Link to="/booksdetails" className="badge badge-outline">
+            <Link to="/bookdetails" className="badge badge-outline">
               More...
             </Link>
           </div>
