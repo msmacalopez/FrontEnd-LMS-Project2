@@ -30,6 +30,7 @@ import ReviewManagementPage from "./pages/private-admin/ReviewManagementPage.jsx
 import ManageAdmins from "./pages/private-system/ManageAdmins.jsx";
 import AddEditBookPage from "./pages/private-admin/AddEditBookPage.jsx";
 import MembersManagementPage from "./pages/private-admin/MembersManagementPage.jsx";
+import BorrowsResultOfSearch from "./pages/private-admin/BorrowsResultOfSearch.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -71,6 +72,10 @@ function App() {
               <Route path="reviews" element={<ReviewManagementPage />} />
               <Route path="members" element={<MembersManagementPage />} />
               <Route path="editbook/:id" element={<AddEditBookPage />} />
+              <Route
+                path="borrows/resultborrows"
+                element={<BorrowsResultOfSearch />}
+              />
               {/* Super Admins */}
               <Route path="admins" element={<ManageAdmins />} />
             </Route>

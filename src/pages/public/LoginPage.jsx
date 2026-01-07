@@ -68,7 +68,7 @@ export default function LoginPage() {
             {/* {loading ? "Logging in..." : "Login"} */}
           </button>
           {/* FAKEEE */}
-          <Link to="/dashboard" className="btn btn-primary mt-2 w-full">
+          <Link to="/dashboard" className="btn btn-error mt-2 w-full">
             Fake Login
           </Link>
 

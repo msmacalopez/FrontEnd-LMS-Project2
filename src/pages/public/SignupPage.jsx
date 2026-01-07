@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 export default function SignupPage() {
   return (
     <div className="min-h-[80vh] flex items-center justify-center py-8">
-      <div className="w-full max-w-md">
+      <div className="w-full max-w-[80vw] md:max-w-[70vw] lg:max-w-[60vw] ">
         <form
           // onSubmit={handleSubmit}
           className="bg-white shadow-lg rounded-lg p-8"
@@ -18,7 +18,7 @@ export default function SignupPage() {
             Register for BookNest
           </h2>
 
-          <div className="space-y-4">
+          <div className="space-y-4 md:grid md:grid-cols-2 md:gap-5">
             {/* Full Name */}
             <div>
               <label className="block text-gray-700 mb-2">Full Name</label>
